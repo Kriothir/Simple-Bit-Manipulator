@@ -5,9 +5,11 @@ where:
 
 option:
 f - operation to find bits from data1
+
 fr - operation to replace bits from data1 with bits from data2
 
 data1 and data2 - sequence of bits
+
 input file - path to any file that you open in binary mode.
 
 Example of use:
