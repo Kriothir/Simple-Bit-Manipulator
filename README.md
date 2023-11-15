@@ -1,19 +1,16 @@
 # Simple-Bit-Manipulator
 dn1 input file option data1 data2
 
-where:
+**Options:**
+- `f` - Operation to find bits from `<data1>`
+- `fr` - Operation to replace bits from `<data1>` with bits from `<data2>`
 
-option:
-f - operation to find bits from data1
+**Data Specifications:**
+- `<data1>` and `<data2>` - Sequence of bits
+- `<input file>` - Path to any file that you open in binary mode.
 
-fr - operation to replace bits from data1 with bits from data2
+## Example Usage:
 
-data1 and data2 - sequence of bits
-
-input file - path to any file that you open in binary mode.
-
-Example of use:
-
+### Find Bits Operation:
+```bash
 dn1 test.bin f 0110100001100101011011000110110001101111
-
-dn1 test.bin fr 0000000 1111
