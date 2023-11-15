@@ -11,6 +11,7 @@ dn1 input file option data1 data2
 
 ## Example Usage:
 
-### Find Bits Operation:
+### Find Bits Operation And Replace Bits Operation:
 ```bash
 dn1 test.bin f 0110100001100101011011000110110001101111
+dn1 test.bin fr 0000000 1111
